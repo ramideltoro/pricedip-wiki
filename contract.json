@@ -1,0 +1,14 @@
+{
+  "sourceFingerprint": "882e728586e66e839c7b06167070120673a062c20615d174d8edbecca81756b4",
+  "sourceRepository": "ramideltoro/pricedip",
+  "reviewedGuides": [
+    "guides/using-pricedip",
+    "guides/seller-policy",
+    "technical/architecture",
+    "technical/development",
+    "operations/deployment",
+    "operations/monitoring",
+    "operations/recovery",
+    "reference/limitations"
+  ]
+}

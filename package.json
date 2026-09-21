@@ -1,0 +1,1 @@
+{"name":"pricedip-wiki","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"astro dev --host 127.0.0.1","build":"astro build","check":"node scripts/validate.mjs"},"dependencies":{"@astrojs/starlight":"^0.37.0","astro":"^5.13.0"}}
