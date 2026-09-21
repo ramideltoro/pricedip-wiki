@@ -11,3 +11,5 @@ Telemetry warns at three minutes and fails at five. Tracked products with previo
 Public views contain aggregate operational evidence. Logs, account settings, ZIP codes, query text, private delivery details, and secrets are excluded. Existing owner access controls diagnostics. Operational incidents use Observe's existing mechanisms; product-price emails are independent.
 
 PriceDip does not depend on Observe for collection, research, or existing sessions. New Google sign-ins require the broker. Documentation synchronization failure blocks releases and remains visible through release evidence.
+
+Qwen model availability and SearXNG health are checked every minute. These checks describe dependency reachability; retailer accessibility is measured by individual collection outcomes. Never infer verified offer coverage from a healthy search service. Source counters use only fixed retailer IDs, with no product names, URLs, or location labels.

@@ -12,3 +12,5 @@ The recovery test records evidence separately from backup creation. Observe dist
 
 ## Failure drills
 Use an isolated test database for target crossings and email outbox checks. Stop/restart only PriceDip's worker to verify heartbeat degradation and lease recovery. Simulate provider and Qwen errors using fixtures. Do not disrupt shared Ollama or Observe to test PriceDip.
+
+Run the current release’s `scripts/rollback.sh` as root to activate the prior immutable release. This records the transition without reverting backward-compatible database additions. Run it again to return to the newer release after verification. Daily snapshots are opened as independent restored databases, integrity-checked, and queried before restoration evidence is recorded.

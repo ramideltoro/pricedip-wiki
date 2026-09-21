@@ -18,3 +18,5 @@ title: Configuration reference
 | `EMAIL_FROM` | Secret / optional; configure privately |
 | `EBAY_CLIENT_ID` | Secret / optional; configure privately |
 | `EBAY_CLIENT_SECRET` | Secret / optional; configure privately |
+| `EMAIL_DAILY_LIMIT` | 30 |
+| `EMAIL_MONTHLY_LIMIT` | 500 |

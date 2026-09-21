@@ -10,3 +10,5 @@ Tests cover seller boundaries, SSRF exclusions, strict price comparisons, observ
 Documentation is canonical in pricedip-wiki. Update affected guides for each behavioral/configuration/dependency change, then run node scripts/docs.mjs record ../pricedip-wiki from the tracked application checkout. This records a reviewed source fingerprint; never use it to conceal stale explanations.
 
 The check mode rejects a different source tree. Release mode generates API/configuration references and a commit-linked release page only after the contract passes. PRs declare documentation impact and include the companion wiki change. Untrusted PR jobs have no deployment secrets.
+
+Pull requests must declare exactly one documentation impact and link a companion pricedip-wiki commit or pull request. The required validation check enforces this declaration, source fingerprints, tests, build, and a high-severity production dependency audit. Direct dependencies and Action revisions are pinned; Dependabot proposals must pass the same documentation gate.

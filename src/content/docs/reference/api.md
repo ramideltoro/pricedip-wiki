@@ -2,7 +2,7 @@
 title: API reference
 ---
 
-Generated from application commit `00442dd1495e66e742af03e7871bc8d6aacf4184`.
+Generated from application commit `5dee6a3cb67f255da4f243aa426d000444145fd6`.
 
 | Method | Route | Access |
 |---|---|---|

@@ -18,3 +18,7 @@ HTTPS only, no URL credentials, public-address validation, pinned DNS for HTTP e
 
 ## Data retention
 Verified observations and events persist. Completed job records expire after seven days; active jobs and failures persist until resolved. Chart responses are bounded without deleting stored observations. Secrets are external runtime configuration.
+
+Browser extraction blocks all WebSocket connections as well as requests outside the original origin. Product dialogs trap keyboard focus and restore it when closed. The System status link opens the dedicated PriceDip page in Observe.
+
+Collection jobs take priority over research jobs. Research is cached for 24 hours. Both fresh source extraction and local ZIP/radius eligibility are rechecked during hourly monitoring. Exact listing identifiers, model, color, size, and condition are kept stable; ambiguous offer collections are rejected. Seller evidence must be fresh within 15 minutes when recording an alert. Public chart samples are selected in SQLite, while original observations remain intact. The overview supports bounded limit/offset pagination.

@@ -13,3 +13,5 @@ Qwen is a local research aid. Inaccessible reviews or specifications are reporte
 Email is bounded by free service allowances. Failed deliveries remain queued. Alerts compare item prices before shipping and tax.
 
 Sample products, research, charts, and events are explicitly illustrative. They never populate real watchlists or monitoring metrics.
+
+PriceDip reserves a conservative email budget of 30 successful deliveries per day and 500 per rolling 31 days by default. The Resend account is shared: provider quota rejection leaves messages pending with backoff. The sender uses the existing verified nutsnews.com domain; this does not change the PriceDip website domain.
