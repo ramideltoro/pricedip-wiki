@@ -13,3 +13,5 @@ Local marketplace listings also need a verifiable location within the account's 
 
 ## Rechecking
 Every recorded observation includes source evidence and timestamp. A new extraction rechecks eligibility before an alert. Different conditions and listing identities are not merged. Changed product titles halt automatic observation until the owner adds the new listing.
+
+Ambiguous structured data containing multiple product variants is rejected. Marketplace ratings must use a five-point scale; unrecognized scales do not qualify.

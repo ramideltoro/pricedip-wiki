@@ -15,3 +15,5 @@ An available, eligible fixed-price USD offer below the target generates an event
 
 ## Public preview
 Visitors can browse published products and events. They cannot search externally, generate research, change targets, or read location/account settings. The sample showcase never sends alerts.
+
+Discovery filters support retailer, condition, and maximum item price. Local tracking requires configured account location and rejects listings outside the selected radius. Paused products can be reactivated only within the active-product limit.
