@@ -13,3 +13,5 @@ Public views contain aggregate operational evidence. Logs, account settings, ZIP
 PriceDip does not depend on Observe for collection, research, or existing sessions. New Google sign-ins require the broker. Documentation synchronization failure blocks releases and remains visible through release evidence.
 
 Qwen model availability and SearXNG health are checked every minute. These checks describe dependency reachability; retailer accessibility is measured by individual collection outcomes. Never infer verified offer coverage from a healthy search service. Source counters use only fixed retailer IDs, with no product names, URLs, or location labels.
+
+Observe also tracks the latest main-branch application validation, wiki publication, and daily reconciliation workflows. GitHub evidence is refreshed every 15 minutes; missing or stale evidence is unknown. Wiki publication runs appear in deployment history. The daily fleet inspection imports PriceDip operational findings into its existing issue and incident workflow.
