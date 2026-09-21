@@ -3,7 +3,7 @@ title: Deployment verification
 ---
 
 ## Release a46ec257533d
-Verified on 2026-09-21. Application and published wiki manifests both name application commit `a46ec257533d8efb56ccb29fb9392db326d16525`.
+Verified on 2026-09-21. At verification, application and published wiki manifests both named application commit `a46ec257533d8efb56ccb29fb9392db326d16525`.
 
 - Twelve application tests cover owner-only authentication, rejected accounts, account and location isolation, CSRF, SSRF, seller thresholds, expired and ambiguous offers, strict target crossings, durable leases, duplicate prevention, retry budgets, dependency outages, and stale documentation rejection.
 - Observe's 58 tests include PriceDip telemetry thresholds, stale tracking, Qwen failures, documentation drift, workflow failures, and recovery. Infrastructure tests cover importing those findings into the established inspection workflow.
@@ -20,3 +20,6 @@ Email retry, idempotency, deduplication, and budgets were tested with isolated p
 
 ## Coverage constraints
 Approved eBay production credentials are not currently configured. Login walls, blocked extraction, unknown condition/availability, missing seller evidence, and unsupported eBay variation URLs remain visible exclusions. A healthy web service does not imply that every retailer is accessible.
+
+## Pickup validation follow-up
+The additional location regression test brings the application suite to 13 tests. It verifies that national-retailer pickup offers require location settings, nearby coordinates pass the selected radius, and distant or missing locations fail closed. The same eligibility rule is applied in discovery and collection.

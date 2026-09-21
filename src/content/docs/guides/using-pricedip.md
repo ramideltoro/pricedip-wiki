@@ -19,3 +19,5 @@ Visitors can browse published products and events. They cannot search externally
 Discovery filters support retailer, condition, and maximum item price. Local tracking requires configured account location and rejects listings outside the selected radius. Paused products can be reactivated only within the active-product limit.
 
 Discovery accepts product names, model numbers, and exact supported HTTPS listing URLs. Filter by retailer, condition, seller name, maximum item price, and delivery or pickup. Unknown delivery methods do not pass a delivery filter. Local searches use your private ZIP and radius from Settings; unverifiable locations are excluded. Shipping is shown separately when the source provides it.
+
+Pickup offers from national retailers follow the same private ZIP/radius eligibility rules as local marketplaces. Selecting pickup requires a configured ZIP code; missing or out-of-range locations are excluded both during discovery and during monitoring before alerts. Delivery offers remain independent of travel radius.
