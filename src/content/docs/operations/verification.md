@@ -14,7 +14,7 @@ Verified on 2026-09-21. Application and published wiki manifests both name appli
 - Source tests preserved uncertainty: Sony returned HTTP 403. Apple exposed a price but insufficient stock and condition evidence, so it could not trigger an ordinary alert.
 
 ## Authentication and delivery boundaries
-The Google sign-in redirect was exercised through the existing Observe OAuth broker. Browser-bound assertions, rejection of unauthorized accounts, expiration, replay protection, and account isolation were tested with isolated fixtures. Interactive Google consent was not completed on the owner's behalf.
+The production Google sign-in flow completed successfully using the owner's existing Google session through the Observe OAuth broker. The authenticated owner workspace and private ZIP/radius settings were verified in the browser, without changing location preferences. Browser-bound assertions, rejection of unauthorized accounts, expiration, replay protection, and account isolation were additionally tested with isolated fixtures.
 
 Email retry, idempotency, deduplication, and budgets were tested with isolated provider responses. No test price-drop emails were sent. Only real qualifying observations can enter the production outbox; showcase samples never do.
 
