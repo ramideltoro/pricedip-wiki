@@ -17,3 +17,5 @@ Dependabot opens update PRs. Lockfiles and pinned Actions support repeatable bui
 The Starlight wiki runs on GitHub Pages. The app source commit is available in the wiki release manifest and app health. A failed or mismatched wiki publication blocks application deployment.
 
 Each release page preserves a complete snapshot of the reviewed guides and generated API/configuration references. The application Documentation link opens its exact release. The commit ledger covers the complete repository history. Deployment and rollback records retain both application and wiki commit IDs in the private database.
+
+Application main requires pull requests, the validate check, resolved conversations, and linear history. Production jobs are restricted to protected branches. Wiki main rejects force pushes and deletion; the restricted release key can append validated documentation commits. Activation requires authenticated readiness for the expected application commit, database access, and a fresh worker heartbeat. Readiness returns HTTP 503 when collection is not ready, independently of the minimal public availability endpoint.

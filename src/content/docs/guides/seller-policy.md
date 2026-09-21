@@ -17,3 +17,5 @@ Every recorded observation includes source evidence and timestamp. A new extract
 Ambiguous structured data containing multiple product variants is rejected. Marketplace ratings must use a five-point scale; unrecognized scales do not qualify.
 
 The manufacturer-store registry includes Sony Electronics, Apple, Dyson, and Samsung. These official storefront domains are explicitly classified as direct sellers; arbitrary new domains are not admitted.
+
+Expired advertised prices are marked unavailable. eBay offers that combine auction and fixed-price buying options are excluded from ordinary alerts. Ambiguous or missing eBay condition descriptions remain unknown; they are not silently treated as used or new.

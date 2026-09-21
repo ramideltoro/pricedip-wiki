@@ -15,3 +15,5 @@ Email is bounded by free service allowances. Failed deliveries remain queued. Al
 Sample products, research, charts, and events are explicitly illustrative. They never populate real watchlists or monitoring metrics.
 
 PriceDip reserves a conservative email budget of 30 successful deliveries per day and 500 per rolling 31 days by default. The Resend account is shared: provider quota rejection leaves messages pending with backoff. The sender uses the existing verified nutsnews.com domain; this does not change the PriceDip website domain.
+
+eBay URLs with a `var` parameter are currently excluded because the adapter cannot yet verify that specific variation. It never substitutes the default item for the requested variant.
